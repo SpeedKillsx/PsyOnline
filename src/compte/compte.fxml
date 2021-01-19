@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="486.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="compte.CompteController">
+   <children>
+      <TextField fx:id="nom" layoutX="35.0" layoutY="68.0" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #A8EB12;" />
+      <TextField fx:id="prenom" layoutX="382.0" layoutY="68.0" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #A8EB12;" />
+      <TextField fx:id="user" layoutX="35.0" layoutY="163.0" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #A8EB12;" />
+      <Text layoutX="35.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nom" wrappingWidth="63.13671875" />
+      <Text layoutX="35.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nom d'utilisateur" wrappingWidth="89.13671875" />
+      <Text layoutX="382.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Prenom" wrappingWidth="63.13671875" />
+      <Text layoutX="389.0" layoutY="309.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Type du compte" wrappingWidth="63.13671875" />
+      <Text layoutX="35.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mot de passe" wrappingWidth="63.13671875" />
+      <Text layoutX="35.0" layoutY="320.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Verrier votre mot de passe" wrappingWidth="102.0" />
+      <RadioButton fx:id="patient" layoutX="389.0" layoutY="341.0" mnemonicParsing="false" text="Patient" />
+      <RadioButton fx:id="psy" layoutX="389.0" layoutY="370.0" mnemonicParsing="false" text="Psychiatre" />
+      <Button layoutX="35.0" layoutY="404.0" mnemonicParsing="false" onAction="#AjouterCompte" prefHeight="25.0" prefWidth="96.0" style="-fx-background-color: Orange; -fx-border-width: 0px 0px 2px 0px; -fx-background-radius: 10px;" text="Créer compte" />
+      <TextField fx:id="email" layoutX="382.0" layoutY="163.0" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #A8EB12;" />
+      <Text layoutX="382.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Adresse email" wrappingWidth="75.0" />
+      <PasswordField fx:id="mot_de_passe" layoutX="35.0" layoutY="266.0" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #A8EB12;" />
+      <PasswordField fx:id="mot_de_passe_verif" layoutX="35.0" layoutY="350.0" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #A8EB12;" />
+      <TextField fx:id="ville" layoutX="378.0" layoutY="253.0" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #A8EB12;" />
+      <Label layoutX="382.0" layoutY="235.0" prefHeight="17.0" prefWidth="37.0" text="Ville" />
+   </children>
+</AnchorPane>

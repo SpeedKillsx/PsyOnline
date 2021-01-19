@@ -1,0 +1,46 @@
+.parent{
+ -fx-background-color: transparent;
+}
+
+.m{
+	 -fx-background-color: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+
+.pane{
+	-fx-background-color : #2196f3;
+}
+
+.transpo{
+	-fx-background-color: transparent;
+	-fx-background-radius: 5px;
+	-fx-border-color:#cccccc;
+	-fx-border-radius: 5px;
+	-fx-border-width:1px;
+	-fx-text-fill: whitesmoke;
+	}
+	
+.white-pane{
+	-fx-background-color:#ffffff;
+	}
+.bleu-pane{
+	-fx-background-color: #151920;
+}
+
+.bleu-panel{
+-fx-background-color: #151928;
+}
+.tf-box{
+	-fx-background-color: transparent;
+	-fx-border-color:#DEDEE4;
+	
+	-fx-border-width: 0px 0px 0px 0px;
+	
+}
+.tf-user{
+	-fx-background-color: transparent;
+	
+	-fx-border-color:#DEDEE4;
+	
+	-fx-border-width: 0px 0px 1px 0px;
+	}
