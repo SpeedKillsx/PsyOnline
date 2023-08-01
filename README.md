@@ -7,4 +7,7 @@ Une appliacation réaliser en Java qui a pour but d'aider les personnes atteinte
 * JavaFX 
 * Base de données SQLite
 * CSS
-
+## Fonctionnalités de PsyOnline:
+* Possibilité de créer un compte PsyOnline.
+* Chat entre un psy et un patient qui se fera sous forme d'une consultation.
+* Envoyer une invitation à un psy.
